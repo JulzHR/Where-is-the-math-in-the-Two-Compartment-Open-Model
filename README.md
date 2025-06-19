@@ -3,3 +3,6 @@
 Welcome! This repository showcases my mathematical modeling project exploring how pharmacokinetic models, specifically the **two compartment open model**, describe drug movement through the body.
 
 ---
+
+## 📌 Introduction
+
