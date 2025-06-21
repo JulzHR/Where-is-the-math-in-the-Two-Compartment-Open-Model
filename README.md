@@ -1,6 +1,6 @@
 # Where is the math in the Two Compartment Open Model? by Julio Reyes
 
-Welcome! This repository presents my mathematical modeling project exploring how pharmacokinetic models, specifically the **two compartment open model**, describe drug movement through the body.
+Welcome! This repository presents my mathematical modeling project exploring how pharmacokinetic models, specifically the **two compartment open model for an intravenous (IV) bolus dose**, describe drug movement through the body.
 
 **Note:** I will focus **exclusively on the theoretical background and mathematical derivation** of the equations that govern the model. It does not include experimental or clinical data, but instead highlights the math behind how we understand drug distribution in the body. :)
 
@@ -28,11 +28,24 @@ $$
 
 where $$C_n$$ refers to the compartment that is being described, either the central/plasma compartment or the peripheral/tissue compartment.
 
-For this specific project, the mathematical model that will be analyzed corresponts to an intravenous (IV) bolus dose, which means that it will represent the drug distribution of a single dose injection. The visualization of the model looks as follows:
+### Two Compartment Open Model for IV Bolus Dose
+
+For the IV bolus dose, the visualization of the model looks as follows:
 
 ![](IV_2CM.png)
 
+Based on that, the equations that model the amount of drug present in each compartment are given by the following differential equations:
+$$
+\frac{dC_p}{dt}=k_{21}C_t-(k_{10}+k_{12})C_p
+
+\frac{dC_t}{dt}=k_{12}C_p-k_{21}C_t
+$$
+
+where $$C_p$$ is the plasma compartment and $$C_t$$ is the tissue compartment.
+
 ### Mathematical derivation
+
+
 
 ## Summary and Conclusions
 
