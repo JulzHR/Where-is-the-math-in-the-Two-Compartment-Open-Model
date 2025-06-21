@@ -10,4 +10,4 @@ Welcome! This repository presents my mathematical modeling project exploring how
 
 I'm Julio Hernández Reyes, a Chemistry major student with a minor in Mathematics. After taking the course Introduction to Pharmacology, I got interested in how pharmacokinetics work. Nonetheless, due to time constraints and because it is an introductory course, the graphs of the model were only shown without a true understanding of the math behind them. Now that I have the opportunity, I would like to see the how math describe the biological or chemical processes that are happening in drug distribution, how the equation of the model is obtained and how are the pharmacokinetic parameters obtained.
 
-https://www.youtube.com/watch?v=WnimfMnryds
+[]!(https://www.youtube.com/watch?v=WnimfMnryds)
