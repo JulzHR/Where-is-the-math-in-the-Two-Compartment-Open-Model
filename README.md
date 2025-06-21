@@ -38,6 +38,7 @@ Based on that, the equations that model the amount of drug present in each compa
 $$
 \frac{dC_p}{dt}=k_{21}C_t-(k_{10}+k_{12})C_p
 $$
+
 $$
 \frac{dC_t}{dt}=k_{12}C_p-k_{21}C_t
 $$
