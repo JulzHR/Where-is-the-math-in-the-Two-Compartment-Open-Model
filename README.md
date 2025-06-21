@@ -1,6 +1,6 @@
 # Where is the math in the Two Compartment Open Model? by Julio Reyes
 
-Welcome! This repository presents my mathematical modeling project exploring how pharmacokinetic models, specifically the **two compartment open model for an intravenous (IV) bolus dose**, describe drug movement through the body.
+Welcome! This repository presents my mathematical modeling project exploring how pharmacokinetic models, specifically the **two compartment open model**, describe drug movement through the body.
 
 **Note:** I will focus **exclusively on the theoretical background and mathematical derivation** of the equations that govern the model. It does not include experimental or clinical data, but instead highlights the math behind how we understand drug distribution in the body. :)
 
