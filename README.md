@@ -26,7 +26,7 @@ $$
 \frac{dC_n}{dt}=Input\space rate\space of\space drug-Output\space rate\space of\space drug
 $$
 
-
+where $$C_n$$ refers to the compartment that is being described, either the central/plasma compartment or the peripheral/tissue compartment.
 
 ### Mathematical derivation
 
