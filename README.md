@@ -28,6 +28,10 @@ $$
 
 where $$C_n$$ refers to the compartment that is being described, either the central/plasma compartment or the peripheral/tissue compartment.
 
+For this specific project, the mathematical model that will be analyzed corresponts to an intravenous (IV) bolus dose, which means that it will represent the drug distribution of a single dose injection. The visualization of the model looks as follows:
+
+![](IV_2CM.png)
+
 ### Mathematical derivation
 
 ## Summary and Conclusions
