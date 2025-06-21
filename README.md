@@ -23,7 +23,7 @@ Here is the link to the [Video Presenting Classmates]()
 As stated in the [Video Presenting Classmates](), the basic idea of the model is to keep track of the amount of drug that goes inside and ouside the compartment as shown in the following equation:
 
 $$
-\frac{dC_n}{dt}=Input\spacerate\space\spaceof\spacedrug-Output\spacerate\spaceof\spacedrug
+\frac{dC_n}{dt}=Input\space rate\space of\space drug-Output\space rate\space of\space drug
 $$
 
 
