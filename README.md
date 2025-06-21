@@ -28,6 +28,13 @@ $$
 
 where $$C_n$$ refers to the compartment that is being described, either the central/plasma compartment or the peripheral/tissue compartment.
 
+### Variety of Models
+
+Depending on the route of administration of the drug (oral, injection, infusion, etc.) and the excretion of the drug (urine or sweat mainly), the representation of the model may vary. For instance, oral administration will have an extra constant when compared to IV. Some models mention that excretion only occurs in the central compartment, while others affirm that excretion happens in the tissue compartment or  even a combination of both compartments. So, as you can see, this model is versatile since it allows to take these factors (administration and excretion) into consideration.
+
+
+
+
 ### Two Compartment Open Model for IV Bolus Dose
 
 For the IV bolus dose, the visualization of the model looks as follows:
