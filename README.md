@@ -6,8 +6,30 @@ Welcome! This repository presents my mathematical modeling project exploring how
 
 ---
 
+## Personal Information
+
+Hi! I'm Julio Hernández Reyes, a Chemistry major student with a minor in Mathematics. I'm passionate  
+
 ## Introduction
 
-I'm Julio Hernández Reyes, a Chemistry major student with a minor in Mathematics. After taking the course Introduction to Pharmacology, I got interested in how pharmacokinetics work. Nonetheless, due to time constraints and because it is an introductory course, the graphs of the model were only shown without a true understanding of the math behind them. Now that I have the opportunity, I would like to see the how math describe the biological or chemical processes that are happening in drug distribution, how the equation of the model is obtained and how are the pharmacokinetic parameters obtained.
+After taking the course Introduction to Pharmacology, I got interested in how pharmacokinetics work. Nonetheless, due to time constraints and because it is an introductory course, the graphs of the model were only shown without a true understanding of the math behind them. Now that I have the opportunity, I would like to see the how math describe the biological or chemical processes that are happening in drug distribution, how the equation of the model is obtained and how are the pharmacokinetic parameters obtained.
 
-[Motivational Video](https://www.youtube.com/watch?v=WnimfMnryds)
+Here is the link to the [Motivational Video](https://www.youtube.com/watch?v=WnimfMnryds)
+
+Here is the link to the [Video Presenting Classmates]()
+
+## Hands On
+
+As stated in the [Video Presenting Classmates](), the basic idea of the model is to keep track of the amount of drug that goes inside and ouside the compartment as shown in the following equation:
+
+$$
+\frac{dC_n}{dt}=Input rate of drug-Output rate of drug
+$$
+
+
+
+### Mathematical derivation
+
+## Summary and Conclusions
+
+## References
