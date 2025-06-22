@@ -66,7 +66,7 @@ Based on that, the system of differential equations that model the amount of dru
 
 $$\frac{dC_p}{dt}=k_{21}C_t-(k_{01}+k_{12})C_p \qquad \qquad$$ Equation 1
 
-$$\frac{dC_t}{dt}=k_{12}C_p-k_{21}C_t \qquad \qquad \qquad \quad \quad$$ Equation 2
+$$\frac{dC_t}{dt}=k_{12}C_p-k_{21}C_t \qquad \qquad \qquad \quad \:$$ Equation 2
 
 where $$C_p$$ is the plasma compartment and $$C_t$$ is the tissue compartment.
 
