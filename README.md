@@ -76,7 +76,7 @@ where $$C_p$$ is the plasma compartment and $$C_t$$ is the tissue compartment.
 
 ### Mathematical derivation
 
-$$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t]$$
+$$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
 ## Summary and Conclusions
 
