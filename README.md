@@ -1,4 +1,4 @@
-# Where is the math in the Two Compartment Open Model? by Julio Reyes
+# Where is the math in the Two Compartment Open Model? by Julio Hernández Reyes
 
 Welcome! This repository presents my mathematical modeling project exploring how pharmacokinetic models, specifically the **two compartment open model**, describe drug movement through the body.
 
@@ -32,7 +32,9 @@ where $$C_n$$ refers to the compartment that is being described, either the cent
 
 Depending on the route of administration of the drug (oral, injection, infusion, etc.) and the excretion of the drug (urine or sweat mainly), the representation of the model may vary. For instance, oral administration will have an extra constant when compared to IV. Some models mention that excretion only occurs in the central compartment, while others affirm that excretion happens in the tissue compartment or  even a combination of both compartments. So, as you can see, this model is versatile since it allows to take these factors (administration and excretion) into consideration.
 
+![](Models.png)
 
+### Model Assumptions and Limitations
 
 
 ### Two Compartment Open Model for IV Bolus Dose
