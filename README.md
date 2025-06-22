@@ -36,6 +36,15 @@ Depending on the route of administration of the drug (oral, injection, infusion,
 
 ### Model Assumptions and Limitations
 
+The body is represented by two compartments.
+Once a drug enters a compartment, it instantly and homogeneously mixes.
+Drug movement between compartments and elimination from the central compartment follow first-order kinetics: 𝑅𝑎𝑡𝑒∝𝐴𝑚𝑜𝑢𝑛𝑡 𝑜𝑟 𝑐𝑜𝑛𝑐𝑒𝑛𝑡𝑟𝑎𝑡𝑖𝑜𝑛 𝑜𝑓 𝑑𝑟𝑢𝑔
+The drug is eliminated only from the central compartment.
+The entire dose is injected directly into the central compartment at 𝑡=0.
+
+Nonlinear (Michaelis-Menten) kinetics
+The model starts drug distribution immediately, but some drugs exhibit distribution delays.
+Saturation effects and metabolism
 
 ### Two Compartment Open Model for IV Bolus Dose
 
