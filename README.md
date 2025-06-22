@@ -8,7 +8,7 @@ Welcome! This repository presents my mathematical modeling project exploring how
 
 ## Personal Information
 
-Hi! I'm Julio Hernández Reyes, a Chemistry major student with a minor in Mathematics. I'm passionate  
+Hi! I'm Julio Hernández Reyes, a Chemistry major student with a minor in Mathematics at Arkansas State University Campus Queretaro (ASUCQ). Up to now, I already finished all the Chemistry courses and have taken the majority of math courses offered by the institution (Calculus 1 2 and 3; Linear Algebra & Differential Equations). I find really enjoyable Organic and Inorganic Chemistry and some of the connections they have with other fields. 
 
 ## Introduction
 
@@ -36,15 +36,25 @@ Depending on the route of administration of the drug (oral, injection, infusion,
 
 ### Model Assumptions and Limitations
 
-The body is represented by two compartments.
-Once a drug enters a compartment, it instantly and homogeneously mixes.
-Drug movement between compartments and elimination from the central compartment follow first-order kinetics: 𝑅𝑎𝑡𝑒∝𝐴𝑚𝑜𝑢𝑛𝑡 𝑜𝑟 𝑐𝑜𝑛𝑐𝑒𝑛𝑡𝑟𝑎𝑡𝑖𝑜𝑛 𝑜𝑓 𝑑𝑟𝑢𝑔
-The drug is eliminated only from the central compartment.
-The entire dose is injected directly into the central compartment at 𝑡=0.
+**Assumptions**
 
-Nonlinear (Michaelis-Menten) kinetics
-The model starts drug distribution immediately, but some drugs exhibit distribution delays.
-Saturation effects and metabolism
+1.- The body is represented by two compartments.
+
+2.- Once a drug enters a compartment, it mixes instantly and homogenously.
+
+3.- Drug movement between compartments and elimination from the central compartment follow first-order kinetics: 𝑅𝑎𝑡𝑒∝𝐴𝑚𝑜𝑢𝑛𝑡 𝑜𝑟 𝑐𝑜𝑛𝑐𝑒𝑛𝑡𝑟𝑎𝑡𝑖𝑜𝑛 𝑜𝑓 𝑑𝑟𝑢𝑔
+
+4.- The drug is eliminated only from the central compartment.
+
+5.- The entire dose is injected directly into the central compartment at t=0.
+
+**Limitations**
+
+1.- Nonlinear (Michaelis-Menten) kinetics
+
+2.- The model starts drug distribution immediately, but some drugs exhibit distribution delays.
+
+3.- Saturation effects and metabolism
 
 ### Two Compartment Open Model for IV Bolus Dose
 
@@ -52,7 +62,7 @@ For the IV bolus dose, the visualization of the model looks as follows:
 
 ![](IV_2CM.png)
 
-Based on that, the equations that model the amount of drug present in each compartment are given by the following differential equations:
+Based on that, the system of differential equations that model the amount of drug present in each compartment are given by:
 
 $$
 \frac{dC_p}{dt}=k_{21}C_t-(k_{10}+k_{12})C_p
@@ -66,7 +76,7 @@ where $$C_p$$ is the plasma compartment and $$C_t$$ is the tissue compartment.
 
 ### Mathematical derivation
 
-
+$$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t]$$
 
 ## Summary and Conclusions
 
