@@ -104,11 +104,21 @@ $$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=-k_{21}\frac{dC_p}{dt}-k_{2
 
 Now passing all the remaining terms to the other side and making the equation equal to zero we obtain:
 
-$$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}+k_{21}\frac{dC_p}{dt}+k_{21}k_{01}C_p=0$$
+$$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}+k_{21}\frac{dC_p}{dt}+k_{21}k_{10}C_p=0$$
 
 Factorizing the remaining terms, we obtain the second order differential equation that is needed to be solved to find the equation of the model
 
-$$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12}+k_{21})\frac{dC_p}{dt}+k_{21}k_{01}C_p=0$$
+$$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12}+k_{21})\frac{dC_p}{dt}+k_{21}k_{10}C_p=0$$
+
+Since all the $$k_n$$ are microconstants, we can create two hybrid constants ($$\alpha$$ and $$\beta$$) to simplify the model. In this case:
+
+$$k_{10}+k_{12}+k_{21}=\alpha + \beta$$
+
+$$k_{21}k_{10}=\alpha \beta$$
+
+The characteristic equation of the model is:
+
+$$r^2+(
 
 $$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
