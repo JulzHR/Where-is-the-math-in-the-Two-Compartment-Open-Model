@@ -78,19 +78,21 @@ First, you take the derivative of Equation 1 with respect to time and arrange al
 
 $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}\frac{dC_t}{dt} \quad \text{(3)}$$
 
-From equation 2 you have the expression that corresponds to $$\frac{dC_t}{dt}$$, so you substitute it in equation 3 to obtain:
+From Equation 2 you have the expression that corresponds to $$\frac{dC_t}{dt}$$, so you substitute it in Equation 3 to obtain:
 
 $$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=k_{21}(k_{12}C_p-k_{21}C_t)$$
 
 $$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}^2C_t \quad \text{(4)}$$
 
-Now, from equation 1, clear for $$C_t$$ and substitute it in equation 4. 
+Now, from Equation 1, clear for $$C_t$$. 
 
 $$\frac{dC_p}{dt}+(k_{01}+k_{12})C_p=k_{21}C_t$$
 
-$$\frac{1}{k_{21}} \bullet \frac{dC_p}{dt}+(k_{01}+k_{12})C_p=C_t$$
+$$\frac{1}{k_{21}} \left( \frac{dC_p}{dt}+(k_{01}+k_{12})C_p=C_t \right)$$
 
-$$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}^2(\frac{1}{k_{21}}(\frac{dC_p}{dt}+(k_{01}+k_{12})C_p))$$
+Substitute the value of $$C_t$$ in Equation 4.
+
+$$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}^2 \left( \frac{1}{k_{21}} \left( \frac{dC_p}{dt}+(k_{01}+k_{12})C_p \right) \right)$$
 
 $$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
