@@ -82,9 +82,15 @@ From equation 2 you have the expression that corresponds to $$\frac{dC_t}{dt}$$,
 
 $$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=k_{21}(k_{12}C_p-k_{21}C_t)$$
 
+$$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}^2C_t \quad \text{(4)}$$
 
+Now, from equation 1, clear for $$C_t$$ and substitute it in equation 4. 
 
-$$= - (k_{10} + k_{12}) \frac{dx}{dt} + k_{12}k_{21}x - k_{21}^2 y$$
+$$\frac{dC_p}{dt}+(k_{01}+k_{12})C_p=k_{21}C_t$$
+
+$$\frac{1}{k_{21}} \bullet \frac{dC_p}{dt}+(k_{01}+k_{12})C_p=C_t$$
+
+$$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}^2(\frac{1}{k_{21}}(\frac{dC_p}{dt}+(k_{01}+k_{12})C_p))$$
 
 $$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
