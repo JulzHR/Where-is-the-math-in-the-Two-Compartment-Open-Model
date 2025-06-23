@@ -94,7 +94,7 @@ Substitute the value of $$C_t$$ in Equation 4 and simplify terms.
 
 $$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}^2 \left( \frac{1}{k_{21}} \left( \frac{dC_p}{dt}+(k_{01}+k_{12})C_p \right) \right)$$
 
-$$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}(\frac{dC_p}{dt})-k_{21}((k_{01}+k_{12})C_p)$$
+$$\frac{d^2C_p}{dt^2}+(k_{10}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21} \left( \frac{dC_p}{dt}+(k_{01}+k_{12})C_p \right)$$
 
 $$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
