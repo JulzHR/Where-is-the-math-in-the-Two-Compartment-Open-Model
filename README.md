@@ -118,7 +118,7 @@ $$k_{21}k_{10}=\alpha \beta$$
 
 And thus, the new equation looks as:
 
-$$\frac{d^2C_p}{dt^2}+(\alpha+\beta)\frac{dC_p}{dt}+ \alpha \betaC_p=0$$
+$$\frac{d^2C_p}{dt^2}+(\alpha+\beta)\frac{dC_p}{dt}+ \alpha \beta C_p=0$$
 
 Now, we can reduce the second order differential equation into a cuadratic equation (known as characteristic equation)
 
