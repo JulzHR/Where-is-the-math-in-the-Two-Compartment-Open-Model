@@ -102,7 +102,7 @@ $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}\frac
 
 $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=-k_{21}\frac{dC_p}{dt}-k_{21}k_{01}C_p$$
 
-Now passing all the remaining terms to the other side and making the equation equal to zero we obtain:
+By passing all the remaining terms to the other side and making the equation equal to zero we obtain:
 
 $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}+k_{21}\frac{dC_p}{dt}+k_{21}k_{01}C_p=0$$
 
@@ -120,7 +120,7 @@ And thus, the new equation looks as:
 
 $$\frac{d^2C_p}{dt^2}+(\alpha+\beta)\frac{dC_p}{dt}+ \alpha \beta C_p=0$$
 
-Now, we can reduce the second order differential equation into a cuadratic equation (known as characteristic equation)
+Now, we can reduce the second order differential equation into a cuadratic equation (known as characteristic equation) to find the solution
 
 $$r^2+(\alpha+\beta)r+ \alpha \beta=0$$
 
