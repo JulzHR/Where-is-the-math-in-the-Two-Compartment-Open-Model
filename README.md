@@ -16,7 +16,7 @@ After taking the course Introduction to Pharmacology, I got interested in how ph
 
 Here is the link to the [Motivational Video](https://www.youtube.com/watch?v=WnimfMnryds)
 
-Here is the link to the [Video Presenting Classmates]()
+Here is the link to the [Video Presenting Classmates](https://youtu.be/bwfhQW6KAQg)
 
 ## Hands On
 
