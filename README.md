@@ -18,8 +18,6 @@ Here is the link to the [Motivational Video](https://www.youtube.com/watch?v=Wni
 
 Here is the link to the [Video Presenting Classmates](https://youtu.be/bwfhQW6KAQg)
 
---
-
 ## Hands On
 
 As stated in the [Video Presenting Classmates](), the basic idea of the model is to keep track of the amount of drug that goes inside and ouside the compartments as time passes. This behavior is shown in the following equation:
@@ -134,17 +132,13 @@ Since we have two real and distinct roots, the solution to the second order diff
 
 $$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
---
-
 ## Conclusions
 
 This project examines the theoretical framework of the two-compartment open pharmacokinetic model. I derived and studied the differential equations that govern drug transfer between the central and peripheral compartments, highlighting how exponential terms describe concentration–time profiles. Because the timeline was short—about one month—I focused on the derivation itself and did not explore parameter-estimation methods or full PK calculations. I first considered a different, more complex topic (Density Functional Theory), but soon realized it would not fit the schedule. After searching for a chemistry-related alternative, I chose this model. To tackle it, I reviewed ideas from precalculus, differential equations, and pharmacology, gathered papers on solving linear ODE systems, and worked through the algebra by hand. When a step was unclear, I asked Deepseek to break it into smaller pieces so I could explain each part with confidence.
 
-My coursework had already given me a solid foundation in calculus and reaction kinetics, and pharmacology had shown me the typical shape of concentration curves, though I had never seen where the equations came from. Tracing those curves back to their source was enriching, as was learning how the rate constants $$k_{01​}$$, $$k_{12]$$​, and $$k_{21}$$​ and the hybrid constants $$\alpha$$ and $$\beta$$ reflect real transport processes. Grasping the switch from the original rate constants to the hybrid ones took extra effort, and losing a week while I changed topics made time management harder. Additionaly, adapting the material for classmates who are not chemists added another challenge.
+My coursework had already given me a solid foundation in calculus and reaction kinetics, and pharmacology had shown me the typical shape of concentration curves, though I had never seen where the equations came from. Tracing those curves back to their source was enriching, as was learning how the rate constants $$k_{01​}$$, $$k_{12}$$​, and $$k_{21}$$​ and the hybrid constants $$\alpha$$ and $$\beta$$ reflect real transport processes. Grasping the switch from the original rate constants to the hybrid ones took extra effort, and losing a week while I changed topics made time management harder. Additionaly, adapting the material for classmates who are not chemists added another challenge.
 
 Despite these obstacles, I really enjoyed the project. It deepened a concept I first met in Intro to Pharmacology and showed how mathematics clarifies biochemical behaviour. Next, I hope to implement numerical solutions in Python and compare them with reported PK values for drugs.
-
---
 
 ## References
 
