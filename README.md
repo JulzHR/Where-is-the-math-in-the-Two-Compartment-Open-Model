@@ -126,7 +126,7 @@ $$r^2+(\alpha+\beta)r+ \alpha \beta=0$$
 
 Finally, recall that $$(x+a)(x+b)=x^2+(a+b)x+ab$$. So, the roots of the cuadratic equation are:
 
-$$(r+\alpha)(r+\beta)$$
+$$(r + \alpha )(r + \beta )$$
 
 Since we have two real and distinct roots, the solution to the second order differential equation is:
 
