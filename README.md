@@ -167,7 +167,7 @@ To find the value of $A$ and $B$, the following steps can be followed:
 
 $$
 \begin{align*}
-& C_p(0)=Ae^{-\alpha (0)}+Be^{-\beta (t)} \\
+& C_p(0)=Ae^{-\alpha (0)}+Be^{-\beta (0)} \\
 \\
 & C_p(0)=A+B \\
 \\
