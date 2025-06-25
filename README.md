@@ -34,7 +34,7 @@ Depending on the route of administration of the drug (oral, injection, infusion,
 
 ![](Models.png)
 
-### Model Assumptions and Limitations for IV single dose
+### Model Assumptions and Limitations
 
 **Assumptions**
 
@@ -44,10 +44,6 @@ Depending on the route of administration of the drug (oral, injection, infusion,
 
 3. Drug movement between compartments and elimination from the central compartment follow first-order kinetics: $$Rate \propto Concentration \space of \space drug$$
 
-4. The drug is eliminated only from the central compartment.
-
-5. The entire dose is injected directly into the central compartment at t=0.
-
 **Limitations**
 
 1. This model does not account for any other type of kinetics. Therefore, it is not linear, then the model will fail.
@@ -56,7 +52,7 @@ Depending on the route of administration of the drug (oral, injection, infusion,
 
 3. The model ignores saturation of transporters or plasma protein binding, which can alter drug distribution.
 
-4. Some drugs (e.g., prodrugs) are metabolized in peripheral tissues, but the model assumes elimination only in the central compartment.
+---
 
 ### Two Compartment Open Model for IV Bolus Dose
 
