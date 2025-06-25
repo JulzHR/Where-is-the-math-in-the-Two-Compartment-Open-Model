@@ -68,8 +68,8 @@ Based on that, the system of differential equations that model the amount of dru
 
 $$
 \begin{align*}
-\frac{dC_p}{dt}&=k_{21}C_t-(k_{01}+k_{12})C_p    &    \qquad \text{(1)} \\
-\frac{dC_t}{dt}&=k_{12}C_p-k_{21}C_t             &    \qquad \text{(2)}
+\frac{dC_p}{dt}=k_{21}C_t-(k_{01}+k_{12})C_p    &    \qquad \text{(1)} \\
+\frac{dC_t}{dt}=k_{12}C_p-k_{21}C_t             &    \qquad \text{(2)}
 \end{align*}
 $$
 
