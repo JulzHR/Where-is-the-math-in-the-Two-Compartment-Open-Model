@@ -76,11 +76,11 @@ $$
 
 There are multiple ways to solve this system of differential equations (Laplace transform or Eigenvalue decomposition), yet solving by the method of elimination is easier since only algebra is mostly required. The main idea behind the method is to tranform the systenm of differential equations into a second order differential equation  and then find the solution of that ODE.
 
-* First, you take the derivative of Equation 1 with respect to time and arrange all the terms that contain $$C_p$$ to one side of the equation.
+* First, take the derivative of Equation 1 with respect to time and arrange all the terms that contain $C_p$ to one side of the equation.
 
 $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}\frac{dC_t}{dt} \quad \text{(3)}$$
 
-* From Equation 2 you have the expression that corresponds to $$\frac{dC_t}{dt}$$, so you substitute it in Equation 3 to obtain:
+* From Equation 2, the expression corresponds to $\frac{dC_t}{dt}$. Substitute it in Equation 3 to obtain:
   
 $$
 \begin{align*}
@@ -90,7 +90,7 @@ $$
 \end{align*}
 $$
 
-* Now, from Equation 1, clear for $$C_t$$.
+* From Equation 1, clear for $C_t$.
   
 $$
 \begin{align*}
@@ -100,7 +100,7 @@ $$
 \end{align*}
 $$
 
-* Substitute the value of $$C_t$$ in Equation 4 and simplify terms.
+* Substitute the value of $C_t$ in Equation 4 and simplify terms.
 
 $$
 \begin{align*}
@@ -120,12 +120,12 @@ $$
 
 $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}+k_{21}\frac{dC_p}{dt}+k_{21}k_{01}C_p=0$$
 
-* Factorizing the remaining terms, we obtain the second order differential equation that is needed to be solved to find the equation of the model
+* Factorizing the remaining terms, a second order differential equation is obtained and will be solved to find the equation of the model
 
 $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12}+k_{21})\frac{dC_p}{dt}+k_{21}k_{01}C_p=0$$
 
 
-> Since all the $$k_n$$ are microconstants, we can create two hybrid constants ($$\alpha$$ and $$\beta$$) to simplify the model. In this case:
+> Since all $k_n$ are microconstants,  two hybrid constants ($\alpha$ and $\beta$) are created to simplify the model. In this case:
 > 
 > $$k_{01}+k_{12}+k_{21}=\alpha + \beta $$
 > 
@@ -135,7 +135,7 @@ $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12}+k_{21})\frac{dC_p}{dt}+k_{21}k_{01}C_p=0$$
 
 $$\frac{d^2C_p}{dt^2}+(\alpha+\beta)\frac{dC_p}{dt}+ \alpha \beta C_p=0$$
 
-* Now, we can reduce the second order differential equation into a cuadratic equation (known as characteristic equation) to find the solution
+* Reduce the second order differential equation into a cuadratic equation (known as characteristic equation) to find the solution
 
 $$r^2+(\alpha+\beta)r+ \alpha \beta=0$$
 
@@ -143,7 +143,7 @@ $$r^2+(\alpha+\beta)r+ \alpha \beta=0$$
 
 $$(r + \alpha )(r + \beta )$$
 
-> Since we have two real and distinct roots, the solution to the second order differential equation is:
+> Two real and distinct roots appear, so the solution to the second order differential equation is:
 >
 > $$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
@@ -195,7 +195,7 @@ $$
 \end{align*}
 $$
 
-* Since we know what $C_p$ is, we take the first derivative, substitute in equation 5 and look for $C_p'$ when $t=0$
+* Since $C_p$ is known, take the first derivative of it, substitute it in equation 5 and look for $C_p'$ when $t=0$
 
 $$
 \begin{align*}
@@ -211,7 +211,7 @@ $$
 \end{align*}
 $$
 
-> Now we have a system of equations considering $C_p(0)$ and $C_p'(0)$
+> Now a system of equations appear considering $C_p(0)$ and $C_p'(0)$
 >
 >$$
 \begin{align*}
@@ -239,7 +239,7 @@ $$
 \end{align*}
 $$
 
-* If you recall $$k_{01}+k_{12}+k_{21}=\alpha + \beta$$. Therefore $$k_{01}+k_{12}-\beta=\alpha -k_{21}$$
+* Recall that $k_{01}+k_{12}+k_{21}=\alpha + \beta$. Therefore, $k_{01}+k_{12}-\beta=\alpha -k_{21}$
 
 $$
 \begin{align*}
