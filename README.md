@@ -146,23 +146,25 @@ Since we have two real and distinct roots, the solution to the second order diff
 
 $$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
+**Note:** Once the equation for $$C_p$$ was found, you can easily solve for the tissue compartment but it is not commonly done since the relevant biological and pharmacokinetic processes occur mostly in the plasma compartment. 
+
 The values for $$A$$ and $$B$$ can be estimated by applying the initial conditions in equations 1 and 2. A
 
-**Initial Conditions:** At $$t=0$$, $$C_p=D$$ and $$C_t=0$$ where $$D$$ is the initial dose administered. 
+**Initial Conditions:** At $$t=0$$, $$C_p=D$$ and $$C_t=0$$ where $$D$$ is the initial dose administered.
 
 $$
 \begin{align*}
-& \frac{dC_p}{dt}=k_{21}(0)-(k_{01}+k_{12})D \\
+& C_p'(0)=k_{21}(0)-(k_{01}+k_{12})D \\
 \\
-& \frac{dC_t}{dt}=k_{12}D-k_{21}(0)
+& C_t'(0)=k_{12}D-k_{21}(0)
 \end{align*}
 $$
 
 $$
 \begin{align*}
-& \frac{dC_p}{dt}=-(k_{01}+k_{12})D  &  \text{(5)}\\
+& C_p'(0)=-(k_{01}+k_{12})D  &  \text{(5)}\\
 \\
-& \frac{dC_t}{dt}=k_{12}D
+& C_t'(0)=k_{12}D
 \end{align*}
 $$
 
@@ -170,17 +172,71 @@ Since we know what $$C_p$$ is, we take the derivative of it, substitute in equat
 
 $$
 \begin{align*}
-& \frac{dC_p}{dt}=-\alpha Ae^{-\alpha t}-\beta Be^{-\beta t} \\
+& C_p'(t)=-\alpha Ae^{-\alpha t}-\beta Be^{-\beta t} \\
 \\
-& \frac{dC_p(0)}{dt}=-\alpha Ae^{-\alpha (0)}-\beta Be^{-\beta (0)} \\
+& C_p'(0)=-\alpha Ae^{-\alpha (0)}-\beta Be^{-\beta (0)} \\
 \\
-& \frac{dC_p(0)}{dt}=-\alpha A-\beta B \\
+& C_p'(0)=-\alpha A-\beta B \\
 \\
-& -\alpha A-\beta B=k_{12}D
+& -\alpha A-\beta B=-(k_{01}+k_{12})D
 \end{align*}
 $$
 
-Also, once the equation for $$C_p$$ was found, you can easily solve for the tissue compartment but it is not commonly done since the relevant biological and pharmacokinetic processes occur mostly in the plasma compartment. 
+Also if we look at $$C_p(0)$$, we can see that $$A+B=D$$, and thus we have a new system of equations where:
+
+$$
+\begin{align*}
+& A+B=D \\
+\\
+& -\alpha A-\beta B=-(k_{01}+k_{12})D \\
+\\
+& \alpha A+\beta B=(k_{01}+k_{12})D
+\end{align*}
+$$
+
+Solving the system:
+
+$$
+\begin{align*}
+& B=D-A \\
+\\
+& \alpha A+\beta (D-A)=(k_{01}+k_{12})D \\
+\\
+& \alpha A+\beta D-\beta A=(k_{01}+k_{12})D \\
+\\
+& A(\alpha -\beta)+\beta C=(k_{01}+k_{12})D \\
+\\
+& A(\alpha -\beta)=(k_{01}+k_{12})D - \beta D \\
+\\
+& A(\alpha -\beta)=(k_{01}+k_{12}-\beta )D
+\end{align*}
+$$
+
+If you recall $$k_{01}+k_{12}+k_{21}=\alpha + \beta$$. Therefore $$k_{01}+k_{12}-\beta=\alpha -k_{21}$$
+
+$$
+\begin{align*}
+& A(\alpha -\beta)=(\alpha -k_{21})D \\
+\\
+& A=\frac{(\alpha -k_{21})D}{\alpha -\beta} \\
+\end{align*}
+$$
+
+Finally, clear for B
+
+$$
+\begin{align*}
+& \frac{(\alpha -k_{21})D}{\alpha -\beta}+B=D \\
+\\
+& B=D-\frac{(\alpha -k_{21})D}{\alpha -\beta} \\
+\\
+& B=\frac{(\alpha -\beta )D-(\alpha-k_{21})D}{\alpha -\beta} \\
+\\
+& B=\frac{(\alpha -\beta -\alpha+k_{21})D}{\alpha -\beta} \\
+\\
+& B=\frac{(k_{21}-\beta )D}{\alpha -\beta} \\
+\end{align*}
+$$
 
 ### Model Visualization
 
