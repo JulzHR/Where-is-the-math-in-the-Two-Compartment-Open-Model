@@ -26,7 +26,7 @@ $$
 \frac{dC_n}{dt}=Input\space rate\space of\space drug-Output\space rate\space of\space drug
 $$
 
-where $$C_n$$ refers to the compartment that is being described, either the central/plasma compartment or the peripheral/tissue compartment.
+where $C_n$ refers to the compartment that is being described, either the central/plasma compartment or the peripheral/tissue compartment.
 
 ### Variety of Models
 
@@ -62,7 +62,7 @@ For the IV bolus dose, the visualization of the model looks as follows:
 
 Based on that, the system of differential equations that model the amount of drug present in each compartment are given by:
 
-$$
+> $$
 \begin{align*}
 & \frac{dC_p}{dt}=k_{21}C_t-(k_{01}+k_{12})C_p    &    \qquad \text{(1)} \\
 \\
@@ -70,7 +70,7 @@ $$
 \end{align*}
 $$
 
-where $$C_p$$ is the plasma compartment and $$C_t$$ is the tissue compartment.
+> where $C_p$ is the plasma compartment and $C_t$ is the tissue compartment.
 
 ### Mathematical derivation
 
