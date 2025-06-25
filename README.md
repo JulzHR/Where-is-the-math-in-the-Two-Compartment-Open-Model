@@ -297,9 +297,16 @@ Despite these obstacles, I really enjoyed the project. It deepened a concept I f
 
   4. Rohilla, S. (2020). Two compartment open model sulekhappt.x.1. SlideShare; Slideshare. https://es.slideshare.net/slideshow/two-compartment-open-model-sulekhapptx1/233206136
 
-* The last images were extracted from the following presentation
-  5. Saleh, M. I. (2016). Two-compartment model. Slideplayer.com. https://slideplayer.com/slide/5301703/
+* These two sites were used for mathematical derivation specifically with the use of the microconstants and hybrid constants
+
+  5. Bourne, D. W. A. (2024). Chapter 7.5 - Multi Compartment PK Models. Boomer.org. https://www.boomer.org/c/p4/c02/c07/c0705.php
+ 
+  6. Dey, S. (2022, September 15). A Mathematical Review on Open Two Compartment Pharmacokinetic Models. Asian Journal of Mathematical Sciences. https://doi.org/10.22377/ajms.v5i4.396
+
+* The last image was extracted from the following presentation
+  
+  7. Saleh, M. I. (2016). Two-compartment model. Slideplayer.com. https://slideplayer.com/slide/5301703/
 
 * Finally, this video helped me to see how tha system could be solved by elimination without recurring to Laplace transforms or matrices
 
-  6. The Math Tutor. (2020, December 1). Elimination Method to Solve a System of ODEs | Differential Equation | OGE. YouTube. https://www.youtube.com/watch?v=POc_8zIIZIo
+  8. The Math Tutor. (2020, December 1). Elimination Method to Solve a System of ODEs | Differential Equation | OGE. YouTube. https://www.youtube.com/watch?v=POc_8zIIZIo
