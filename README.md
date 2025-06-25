@@ -34,15 +34,15 @@ Depending on the route of administration of the drug (oral, injection, infusion,
 
 ![](Models.png)
 
-### Model Assumptions and Limitations
+### Model Assumptions and Limitations for IV single dose
 
 **Assumptions**
 
-1. The body is represented by two compartments.
+1. The body is divided into a central compartment (blood and highly perfused organs) and a peripheral compartment (poorly perfused tissues like fat and muscle)
 
 2. Once a drug enters a compartment, it mixes instantly and homogenously.
 
-3. Drug movement between compartments and elimination from the central compartment follow first-order kinetics: 𝑅𝑎𝑡𝑒∝𝐴𝑚𝑜𝑢𝑛𝑡 𝑜𝑟 𝑐𝑜𝑛𝑐𝑒𝑛𝑡𝑟𝑎𝑡𝑖𝑜𝑛 𝑜𝑓 𝑑𝑟𝑢𝑔
+3. Drug movement between compartments and elimination from the central compartment follow first-order kinetics: $$Rate \propal Concentration \space of \space drug$$
 
 4. The drug is eliminated only from the central compartment.
 
@@ -50,11 +50,13 @@ Depending on the route of administration of the drug (oral, injection, infusion,
 
 **Limitations**
 
-1. Nonlinear (Michaelis-Menten) kinetics
+1. This model does not account for any other type of kinetics. Therefore, it is not linear, then the model will fail.
 
-2. The model starts drug distribution immediately, but some drugs exhibit distribution delays.
+2. The model assumes instantaneous distribution, but some drugs have a slow equilibration phase with tissues. Additionally, blood flow and tissue binding can cause non-uniform drug distribution which is somethimg that the model does not account for.
 
-3. Saturation effects and metabolism
+3. The model ignores saturation of transporters or plasma protein binding, which can alter drug distribution.
+
+4. Some drugs (e.g., prodrugs) are metabolized in peripheral tissues, but the model assumes elimination only in the central compartment.
 
 ### Two Compartment Open Model for IV Bolus Dose
 
