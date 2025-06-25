@@ -78,7 +78,7 @@ There are multiple ways to solve this system of differential equations (Laplace 
 
 * First, you take the derivative of Equation 1 with respect to time and arrange all the terms that contain $$C_p$$ to one side of the equation.
 
-  $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}\frac{dC_t}{dt} \quad \text{(3)}$$
+$$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}\frac{dC_t}{dt} \quad \text{(3)}$$
 
 * From Equation 2 you have the expression that corresponds to $$\frac{dC_t}{dt}$$, so you substitute it in Equation 3 to obtain:
   
@@ -102,27 +102,27 @@ $$
 
 * Substitute the value of $$C_t$$ in Equation 4 and simplify terms.
 
-  $$
-  \begin{align*}
-  & \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}^2 \left( \frac{1}{k_{21}} \left( \frac{dC_p}{dt}+(k_{01}+k_{12})C_p \right) \right) \\
-  \\
-  & \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21} \left( \frac{dC_p}{dt}+(k_{01}+k_{12})C_p \right) \\
-  \\
-  & \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}\frac{dC_p}{dt}-k_{21}(k_{01}+k_{12})C_p \\
-  \\
-  & \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}\frac{dC_p}{dt}-k_{21}k_{01}C_p-k_{21}k_{12}C_p \\
-  \\
-  & \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=-k_{21}\frac{dC_p}{dt}-k_{21}k_{01}C_p
-  \end{align*}
-  $$
+$$
+\begin{align*}
+& \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}^2 \left( \frac{1}{k_{21}} \left( \frac{dC_p}{dt}+(k_{01}+k_{12})C_p \right) \right) \\
+\\
+& \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21} \left( \frac{dC_p}{dt}+(k_{01}+k_{12})C_p \right) \\
+\\
+& \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}\frac{dC_p}{dt}-k_{21}(k_{01}+k_{12})C_p \\
+\\
+& \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}\frac{dC_p}{dt}-k_{21}k_{01}C_p-k_{21}k_{12}C_p \\
+\\
+& \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=-k_{21}\frac{dC_p}{dt}-k_{21}k_{01}C_p
+\end{align*}
+$$
 
 * By passing all the remaining terms to the other side and making the equation equal to zero we obtain:
 
-  $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}+k_{21}\frac{dC_p}{dt}+k_{21}k_{01}C_p=0$$
+$$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}+k_{21}\frac{dC_p}{dt}+k_{21}k_{01}C_p=0$$
 
 * Factorizing the remaining terms, we obtain the second order differential equation that is needed to be solved to find the equation of the model
 
-  $$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12}+k_{21})\frac{dC_p}{dt}+k_{21}k_{01}C_p=0$$
+$$\frac{d^2C_p}{dt^2}+(k_{01}+k_{12}+k_{21})\frac{dC_p}{dt}+k_{21}k_{01}C_p=0$$
 
 
 > Since all the $$k_n$$ are microconstants, we can create two hybrid constants ($$\alpha$$ and $$\beta$$) to simplify the model. In this case:
@@ -133,15 +133,15 @@ $$
 
 * And thus, the new equation looks as:
 
-  $$\frac{d^2C_p}{dt^2}+(\alpha+\beta)\frac{dC_p}{dt}+ \alpha \beta C_p=0$$
+$$\frac{d^2C_p}{dt^2}+(\alpha+\beta)\frac{dC_p}{dt}+ \alpha \beta C_p=0$$
 
 * Now, we can reduce the second order differential equation into a cuadratic equation (known as characteristic equation) to find the solution
 
-  $$r^2+(\alpha+\beta)r+ \alpha \beta=0$$
+$$r^2+(\alpha+\beta)r+ \alpha \beta=0$$
 
 * Finally, recall that $$(x+a)(x+b)=x^2+(a+b)x+ab$$. So, the roots of the cuadratic equation are:
 
-  $$(r + \alpha )(r + \beta )$$
+$$(r + \alpha )(r + \beta )$$
 
 > Since we have two real and distinct roots, the solution to the second order differential equation is:
 >
