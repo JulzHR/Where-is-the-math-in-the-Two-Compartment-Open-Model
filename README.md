@@ -147,11 +147,37 @@ $$(r + \alpha )(r + \beta )$$
 >
 > $$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
-**Note:** Once the equation for $$C_p$$ was found, you can easily solve for the tissue compartment but it is not commonly done since the relevant biological and pharmacokinetic processes occur mostly in the plasma compartment. 
+**Note:** Once the equation for $C_p$ was found, you can easily solve for the tissue compartment but it is not commonly done since the relevant biological and pharmacokinetic processes occur mostly in the plasma compartment. 
 
-The values for $$A$$ and $$B$$ can be estimated by applying the initial conditions in equations 1 and 2.
+The values for $A$ and $B$ can be estimated by applying the initial conditions in equations 1 and 2.
 
-**Initial Conditions:** At $$t=0$$, $$C_p=D$$ and $$C_t=0$$ where $$D$$ is the initial dose administered.
+### Constants A, B and Initial Conditions
+
+> This model assumes that at $t=0$:
+> 
+> $C_p(t)=D$
+>
+> $C_t(t)=0$
+>
+> where $D$ is the initial dose administered.
+
+To find the value of $A$ and $B$, the following steps can be followed:
+
+* Apply t=0 in $C_p(t)$ and apply the first condition where $C_p(t)=D$
+
+$$
+\begin{align*}
+& C_p(0)=Ae^{-\alpha (0)}+Be^{-\beta (t)} \\
+\\
+& C_p(0)=A+B \\
+\\
+& C_p(0)=D \\
+\\
+& D=A+B
+\end{align*}
+$$
+
+* Substitute the initial conditions on equations 1 and 2
 
 $$
 \begin{align*}
@@ -169,7 +195,7 @@ $$
 \end{align*}
 $$
 
-Since we know what $$C_p$$ is, we take the derivative of it, substitute in equation 5 and look for $$C_p'$$ when $$t=0$$
+* Since we know what $C_p$ is, we take the first derivative, substitute in equation 5 and look for $C_p'$ when $t=0$
 
 $$
 \begin{align*}
@@ -179,23 +205,23 @@ $$
 \\
 & C_p'(0)=-\alpha A-\beta B \\
 \\
-& -\alpha A-\beta B=-(k_{01}+k_{12})D
+& -\alpha A-\beta B=-(k_{01}+k_{12})D \\
+\\
+& \alpha A+\beta B=(k_{01}+k_{12})D \\
 \end{align*}
 $$
 
-Also if we look at $$C_p(0)$$, we can see that $$A+B=D$$, and thus we have a new system of equations where:
-
-$$
+> Now we have a system of equations considering $C_p(0)$ and $C_p'(0)$
+>
+>$$
 \begin{align*}
 & A+B=D \\
-\\
-& -\alpha A-\beta B=-(k_{01}+k_{12})D \\
 \\
 & \alpha A+\beta B=(k_{01}+k_{12})D
 \end{align*}
 $$
 
-Solving the system:
+* Solving the system:
 
 $$
 \begin{align*}
@@ -213,7 +239,7 @@ $$
 \end{align*}
 $$
 
-If you recall $$k_{01}+k_{12}+k_{21}=\alpha + \beta$$. Therefore $$k_{01}+k_{12}-\beta=\alpha -k_{21}$$
+* If you recall $$k_{01}+k_{12}+k_{21}=\alpha + \beta$$. Therefore $$k_{01}+k_{12}-\beta=\alpha -k_{21}$$
 
 $$
 \begin{align*}
@@ -223,7 +249,7 @@ $$
 \end{align*}
 $$
 
-Finally, clear for B
+* Finally, clear for B
 
 $$
 \begin{align*}
