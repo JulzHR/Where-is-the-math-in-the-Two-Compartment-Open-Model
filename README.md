@@ -60,8 +60,7 @@ For the IV bolus dose, the visualization of the model looks as follows:
 
 ![](IV_2CM.png)
 
-Based on that, the system of differential equations that model the amount of drug present in each compartment are given by:
-
+> Based on that, the system of differential equations that model the amount of drug present in each compartment are given by:
 > $$
 \begin{align*}
 & \frac{dC_p}{dt}=k_{21}C_t-(k_{01}+k_{12})C_p    &    \qquad \text{(1)} \\
