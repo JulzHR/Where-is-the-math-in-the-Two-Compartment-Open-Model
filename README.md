@@ -142,18 +142,18 @@ Despite these obstacles, I really enjoyed the project. It deepened a concept I f
 
 ## References
 
-These two papers are the ones I initially found and are the main reason of why I chose this topic to work with.
+* These two papers are the ones I initially found and are the main reason of why I chose this topic to work with.
 
-Shenoy, P., Joslin D’Souza, Rao, M., Shreesha Chokkadi, & Salins, N. (2023). Mathematical Models to Compare the Pharmacokinetics of Methadone, Buprenorphine, Tramadol, and Tapentadol. Eng. Proc., 59(1), 55. https://doi.org/10.3390/engproc2023059055
+  1. Shenoy, P., Joslin D’Souza, Rao, M., Shreesha Chokkadi, & Salins, N. (2023). Mathematical Models to Compare the Pharmacokinetics of Methadone, Buprenorphine, Tramadol, and Tapentadol. Eng. Proc., 59(1), 55. https://doi.org/10.3390/engproc2023059055
 
-Shenoy, P., Rao, M., Shreesha Chokkadi, Bhatnagar, S., & Salins, N. (2024). Developing mathematical models to compare and analyse the pharmacokinetics of morphine and fentanyl. Indian Journal of Anaesthesia, 68(1), 111–117. https://doi.org/10.4103/ija.ija_1036_23
+  2. Shenoy, P., Rao, M., Shreesha Chokkadi, Bhatnagar, S., & Salins, N. (2024). Developing mathematical models to compare and analyse the pharmacokinetics of morphine and fentanyl. Indian Journal of Anaesthesia, 68(1), 111–117. https://doi.org/10.4103/ija.ija_1036_23
 
-These two sites were used for the theoretical background and also helped a little with the mathematical derivation
+* These two sites were used for the theoretical background and also helped a little with the mathematical derivation
 
-Pharmd Guru. (2022, March 16). 8. MULTI COMPARTMENT MODELS. PHARMD GURU. https://pharmdguru.com/multi-compartment-models/
+  3. Pharmd Guru. (2022, March 16). 8. MULTI COMPARTMENT MODELS. PHARMD GURU. https://pharmdguru.com/multi-compartment-models/
 
-Rohilla, S. (2020). Two compartment open model sulekhappt.x.1. SlideShare; Slideshare. https://es.slideshare.net/slideshow/two-compartment-open-model-sulekhapptx1/233206136
+  4. Rohilla, S. (2020). Two compartment open model sulekhappt.x.1. SlideShare; Slideshare. https://es.slideshare.net/slideshow/two-compartment-open-model-sulekhapptx1/233206136
 
-Finally, this video helped me to see how tha system could be solved by elimination without recurring to Laplace transforms or matrices
+* Finally, this video helped me to see how tha system could be solved by elimination without recurring to Laplace transforms or matrices
 
-The Math Tutor. (2020, December 1). Elimination Method to Solve a System of ODEs | Differential Equation | OGE. YouTube. https://www.youtube.com/watch?v=POc_8zIIZIo
+  5. The Math Tutor. (2020, December 1). Elimination Method to Solve a System of ODEs | Differential Equation | OGE. YouTube. https://www.youtube.com/watch?v=POc_8zIIZIo
