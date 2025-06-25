@@ -38,23 +38,23 @@ Depending on the route of administration of the drug (oral, injection, infusion,
 
 **Assumptions**
 
-1.- The body is represented by two compartments.
+1. The body is represented by two compartments.
 
-2.- Once a drug enters a compartment, it mixes instantly and homogenously.
+2. Once a drug enters a compartment, it mixes instantly and homogenously.
 
-3.- Drug movement between compartments and elimination from the central compartment follow first-order kinetics: 𝑅𝑎𝑡𝑒∝𝐴𝑚𝑜𝑢𝑛𝑡 𝑜𝑟 𝑐𝑜𝑛𝑐𝑒𝑛𝑡𝑟𝑎𝑡𝑖𝑜𝑛 𝑜𝑓 𝑑𝑟𝑢𝑔
+3. Drug movement between compartments and elimination from the central compartment follow first-order kinetics: 𝑅𝑎𝑡𝑒∝𝐴𝑚𝑜𝑢𝑛𝑡 𝑜𝑟 𝑐𝑜𝑛𝑐𝑒𝑛𝑡𝑟𝑎𝑡𝑖𝑜𝑛 𝑜𝑓 𝑑𝑟𝑢𝑔
 
-4.- The drug is eliminated only from the central compartment.
+4. The drug is eliminated only from the central compartment.
 
-5.- The entire dose is injected directly into the central compartment at t=0.
+5. The entire dose is injected directly into the central compartment at t=0.
 
 **Limitations**
 
-1.- Nonlinear (Michaelis-Menten) kinetics
+1. Nonlinear (Michaelis-Menten) kinetics
 
-2.- The model starts drug distribution immediately, but some drugs exhibit distribution delays.
+2. The model starts drug distribution immediately, but some drugs exhibit distribution delays.
 
-3.- Saturation effects and metabolism
+3. Saturation effects and metabolism
 
 ### Two Compartment Open Model for IV Bolus Dose
 
