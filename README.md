@@ -146,8 +146,39 @@ Since we have two real and distinct roots, the solution to the second order diff
 
 $$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
-The values for $$A$$ and $$B$$ can be estimated by applying the initial conditions that state that at $$t=0$$, $$C_p=D$$ and $$C_t=0$$ where $$D$$ is the initial dose administered. 
+The values for $$A$$ and $$B$$ can be estimated by applying the initial conditions in equations 1 and 2. A
 
+**Initial Conditions:** At $$t=0$$, $$C_p=D$$ and $$C_t=0$$ where $$D$$ is the initial dose administered. 
+
+$$
+\begin{align*}
+& \frac{dC_p}{dt}=k_{21}(0)-(k_{01}+k_{12})D \\
+\\
+& \frac{dC_t}{dt}=k_{12}D-k_{21}(0)
+\end{align*}
+$$
+
+$$
+\begin{align*}
+& \frac{dC_p}{dt}=-(k_{01}+k_{12})D  &  \text{(5)}\\
+\\
+& \frac{dC_t}{dt}=k_{12}D
+\end{align*}
+$$
+
+Since we know what $$C_p$$ is, we take the derivative of it, substitute in equation 5 and look for $$C_p'$$ when $$t=0$$
+
+$$
+\begin{align*}
+& \frac{dC_p}{dt}=-\alpha Ae^{-\alpha t}-\beta Be^{-\beta t} \\
+\\
+& \frac{dC_p(0)}{dt}=-\alpha Ae^{-\alpha (0)}-\beta Be^{-\beta (0)} \\
+\\
+& \frac{dC_p(0)}{dt}=-\alpha A-\beta B \\
+\\
+& -\alpha A-\beta B=k_{12}D
+\end{align*}
+$$
 
 Also, once the equation for $$C_p$$ was found, you can easily solve for the tissue compartment but it is not commonly done since the relevant biological and pharmacokinetic processes occur mostly in the plasma compartment. 
 
