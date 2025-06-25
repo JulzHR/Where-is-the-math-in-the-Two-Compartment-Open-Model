@@ -83,12 +83,12 @@ There are multiple ways to solve this system of differential equations (Laplace 
 * From Equation 2 you have the expression that corresponds to $$\frac{dC_t}{dt}$$, so you substitute it in Equation 3 to obtain:
 
   $$
-  \begin{align*}
-  & \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}(k_{12}C_p-k_{21}C_t) \\
-  \\
-  & \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}^2C_t  &  \quad \text{(4)}
-  \end{align*}
-  $$
+\begin{align*}
+& \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}(k_{12}C_p-k_{21}C_t) \\
+\\
+& \frac{d^2C_p}{dt^2}+(k_{01}+k_{12})\frac{dC_p}{dt}=k_{21}k_{12}C_p-k_{21}^2C_t  &  \quad \text{(4)}
+\end{align*}
+$$
 
 * Now, from Equation 1, clear for $$C_t$$. 
 
