@@ -94,9 +94,12 @@ $$
 
 Now, from Equation 1, clear for $$C_t$$. 
 
-$$\frac{dC_p}{dt}+(k_{01}+k_{12})C_p=k_{21}C_t$$
-
-$$\frac{1}{k_{21}} \left( \frac{dC_p}{dt}+(k_{01}+k_{12})C_p \right)=C_t$$ 
+$$
+\begin{align*}
+& \frac{dC_p}{dt}+(k_{01}+k_{12})C_p=k_{21}C_t \\
+& \frac{1}{k_{21}} \left( \frac{dC_p}{dt}+(k_{01}+k_{12})C_p \right)=C_t 
+\end{align*}
+$$
 
 Substitute the value of $$C_t$$ in Equation 4 and simplify terms.
 
