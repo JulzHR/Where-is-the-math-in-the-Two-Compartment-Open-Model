@@ -298,7 +298,6 @@ Despite these obstacles, I really enjoyed the project. It deepened a concept I f
   4. Rohilla, S. (2020). Two compartment open model sulekhappt.x.1. SlideShare; Slideshare. https://es.slideshare.net/slideshow/two-compartment-open-model-sulekhapptx1/233206136
 
 * The last images were extracted from the following presentation
-
   5. Saleh, M. I. (2016). Two-compartment model. Slideplayer.com. https://slideplayer.com/slide/5301703/
 
 * Finally, this video helped me to see how tha system could be solved by elimination without recurring to Laplace transforms or matrices
