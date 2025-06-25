@@ -66,9 +66,12 @@ For the IV bolus dose, the visualization of the model looks as follows:
 
 Based on that, the system of differential equations that model the amount of drug present in each compartment are given by:
 
-$$\frac{dC_p}{dt}=k_{21}C_t-(k_{01}+k_{12})C_p \quad \text{(1)}$$ 
-
-$$\frac{dC_t}{dt}=k_{12}C_p-k_{21}C_t \quad \text{(2)}$$ 
+$$
+\begin{align*}
+\frac{dC_p}{dt}=k_{21}C_t-(k_{01}+k_{12})C_p \quad \text{(1)} \\
+\frac{dC_t}{dt}=k_{12}C_p-k_{21}C_t \quad \text{(2)}
+\end{align*}
+$$
 
 where $$C_p$$ is the plasma compartment and $$C_t$$ is the tissue compartment.
 
