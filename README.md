@@ -239,7 +239,7 @@ $$
 
 ### Model Visualization
 
-![](graph.jpg)
+<img src="https://github.com/graph.jpg" width="100" />
 
 The following image illustrates the typical plasma concentration ($$C_p$$) versus time profiles for a drug. In panel (a), where the y-axis is on a normal scale, the curve shows a rapid initial decline followed by a slower decrease in drug concentration over time. This biexponential behavior becomes more evident in panel (b), where the y-axis is plotted on a logarithmic scale. The curve now clearly separates into two distinct linear segments: the first corresponds to the distribution or $$\alpha$$ phase, where the drug rapidly distributes from the central (plasma) compartment to the peripheral compartment (tissues); the second, more gradual slope represents the post-distribution or $$\beta$$ phase, during which the drug is eliminated primarily from the central compartment. This biphasic profile is characteristic of two-compartment kinetics and reflects both the initial redistribution and the eventual elimination processes that govern drug behavior in the body after IV bolus administration.
 
