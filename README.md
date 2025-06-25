@@ -42,7 +42,7 @@ Depending on the route of administration of the drug (oral, injection, infusion,
 
 2. Once a drug enters a compartment, it mixes instantly and homogenously.
 
-3. Drug movement between compartments and elimination from the central compartment follow first-order kinetics: $$Rate \propal Concentration \space of \space drug$$
+3. Drug movement between compartments and elimination from the central compartment follow first-order kinetics: $$Rate \propto Concentration \space of \space drug$$
 
 4. The drug is eliminated only from the central compartment.
 
