@@ -146,6 +146,15 @@ Since we have two real and distinct roots, the solution to the second order diff
 
 $$C_p(t)=Ae^{-\alpha t}+Be^{-\beta t}$$
 
+The values for $$A$$ and $$B$$ can be estimated by applying the initial conditions that state that at $$t=0$$, $$C_p=D$$ and $$C_t=0$$ where $$D$$ is the initial dose administered. 
+
+
+Also, once the equation for $$C_p$$ was found, you can easily solve for the tissue compartment but it is not commonly done since the relevant biological and pharmacokinetic processes occur mostly in the plasma compartment. 
+
+### Model Visualization
+
+![](graph.jpg)
+
 ## Conclusions
 
 This project examines the theoretical framework of the two-compartment open pharmacokinetic model. I derived and studied the differential equations that govern drug transfer between the central and peripheral compartments, highlighting how exponential terms describe concentration–time profiles. Because the timeline was short—about one month—I focused on the derivation itself and did not explore parameter-estimation methods or full PK calculations. I first considered a different, more complex topic (Density Functional Theory), but soon realized it would not fit the schedule. After searching for a chemistry-related alternative, I chose this model. To tackle it, I reviewed ideas from precalculus, differential equations, and pharmacology, gathered papers on solving linear ODE systems, and worked through the algebra by hand. When a step was unclear, I asked Deepseek to break it into smaller pieces so I could explain each part with confidence.
@@ -168,6 +177,10 @@ Despite these obstacles, I really enjoyed the project. It deepened a concept I f
 
   4. Rohilla, S. (2020). Two compartment open model sulekhappt.x.1. SlideShare; Slideshare. https://es.slideshare.net/slideshow/two-compartment-open-model-sulekhapptx1/233206136
 
+* The last images were extracted from the following presentation
+
+  5. Saleh, M. I. (2016). Two-compartment model. Slideplayer.com. https://slideplayer.com/slide/5301703/
+
 * Finally, this video helped me to see how tha system could be solved by elimination without recurring to Laplace transforms or matrices
 
-  5. The Math Tutor. (2020, December 1). Elimination Method to Solve a System of ODEs | Differential Equation | OGE. YouTube. https://www.youtube.com/watch?v=POc_8zIIZIo
+  6. The Math Tutor. (2020, December 1). Elimination Method to Solve a System of ODEs | Differential Equation | OGE. YouTube. https://www.youtube.com/watch?v=POc_8zIIZIo
