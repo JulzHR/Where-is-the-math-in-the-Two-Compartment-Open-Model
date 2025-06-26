@@ -10,7 +10,7 @@ Welcome! This repository presents my mathematical modeling project exploring how
 
 Hi! I'm Julio Hernández Reyes, a Chemistry major student with a minor in Mathematics at Arkansas State University Campus Queretaro (ASUCQ). Up to now, I already finished all the Chemistry courses and have taken the majority of math courses offered by the institution (Calculus 1, 2, and 3; Linear Algebra & Differential Equations). I find really enjoyable Organic and Inorganic Chemistry and some of the connections they have with other fields.
 
-<img src="https://github.com/JulzHR/Where-is-the-math-in-the-Two-Compartment-Open-Model/blob/main/Images/Pers_Pic.jpeg" width="400" />
+<img src="https://github.com/JulzHR/Where-is-the-math-in-the-Two-Compartment-Open-Model/blob/main/Images/Pers_Pic.jpeg" width="200" />
 
 ## Introduction
 
@@ -60,7 +60,7 @@ Depending on the route of administration of the drug (oral, injection, infusion,
 
 For the IV bolus dose, the visualization of the model looks as follows:
 
-![](IV_2CM.png)
+![](/Images/IV_2CM.png)
 
 > Based on that, the system of differential equations that model the amount of drug present in each compartment are given by:
 > 
