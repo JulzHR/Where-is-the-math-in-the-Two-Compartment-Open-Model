@@ -8,7 +8,9 @@ Welcome! This repository presents my mathematical modeling project exploring how
 
 ## Personal Information
 
-Hi! I'm Julio Hernández Reyes, a Chemistry major student with a minor in Mathematics at Arkansas State University Campus Queretaro (ASUCQ). Up to now, I already finished all the Chemistry courses and have taken the majority of math courses offered by the institution (Calculus 1, 2, and 3; Linear Algebra & Differential Equations). I find really enjoyable Organic and Inorganic Chemistry and some of the connections they have with other fields. 
+Hi! I'm Julio Hernández Reyes, a Chemistry major student with a minor in Mathematics at Arkansas State University Campus Queretaro (ASUCQ). Up to now, I already finished all the Chemistry courses and have taken the majority of math courses offered by the institution (Calculus 1, 2, and 3; Linear Algebra & Differential Equations). I find really enjoyable Organic and Inorganic Chemistry and some of the connections they have with other fields.
+
+<img src="https://github.com/JulzHR/Where-is-the-math-in-the-Two-Compartment-Open-Model/blob/main/Images/Pers_Pic.jpeg" width="400" />
 
 ## Introduction
 
@@ -32,7 +34,7 @@ where $C_n$ refers to the compartment that is being described, either the centra
 
 Depending on the route of administration of the drug (oral, injection, infusion, etc.) and the excretion of the drug (urine or sweat mainly), the representation of the model may vary. For instance, oral administration will have an extra constant when compared to IV. Some models mention that excretion only occurs in the central compartment, while others affirm that excretion happens in the tissue compartment or  even a combination of both compartments. So, as you can see, this model is versatile since it allows to take these factors (administration and excretion) into consideration (Pharmd Guru, 2020).
 
-<img src="https://github.com/JulzHR/Where-is-the-math-in-the-Two-Compartment-Open-Model/blob/main/Models.png" width="700" />
+<img src="https://github.com/JulzHR/Where-is-the-math-in-the-Two-Compartment-Open-Model/blob/main/Images/Models.png" width="700" />
 
 ### Model Assumptions and Limitations
 
@@ -267,7 +269,7 @@ $$
 
 ### Model Visualization
 
-<img src="https://github.com/JulzHR/Where-is-the-math-in-the-Two-Compartment-Open-Model/blob/main/graph.jpg" width="500" /> (Saleh, 2016)
+<img src="https://github.com/JulzHR/Where-is-the-math-in-the-Two-Compartment-Open-Model/blob/main/Images/graph.jpg" width="500" /> (Saleh, 2016)
 
 The following image illustrates the typical plasma concentration ($$C_p$$) versus time profiles for a drug. In panel (a), where the y-axis is on a normal scale, the curve shows a rapid initial decline followed by a slower decrease in drug concentration over time. This biexponential behavior becomes more evident in panel (b), where the y-axis is plotted on a logarithmic scale. The curve now clearly separates into two distinct linear segments: the first corresponds to the distribution or $$\alpha$$ phase, where the drug rapidly distributes from the central (plasma) compartment to the peripheral compartment (tissues); the second, more gradual slope represents the post-distribution or $$\beta$$ phase, during which the drug is eliminated primarily from the central compartment. This biphasic profile is characteristic of two-compartment kinetics and reflects both the initial redistribution and the eventual elimination processes that govern drug behavior in the body after IV bolus administration.
 
